@@ -1,3 +1,4 @@
+//O código irá passar por melhorias
 //Funções que realizam as operações definidas no enunciado do desafio
 function soma(n1, n2){
     return n1 + n2;
