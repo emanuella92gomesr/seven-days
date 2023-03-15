@@ -1,0 +1,63 @@
+:root {
+    --text-color: #667085;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.logo-text {
+    font-style: bold;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3A404E;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.links a{
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 2rem;
+}
+
+button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+
+button#signUp {
+    background-color: #8E2424;
+    color: #FFF;
+}
+
