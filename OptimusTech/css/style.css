@@ -1,5 +1,6 @@
 :root {
     --text-color: #667085;
+    --main-color: #8E2424;
 }
 
 * {
@@ -18,25 +19,11 @@ nav {
 
 .logo {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-    padding: 0px;
-    gap: 0px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-.logo-text {
-    font-style: bold;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    color: #3A404E;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+.logo img {
+    margin-right: 10px;
 }
 
 .links a{
@@ -57,7 +44,29 @@ button {
 }
 
 button#signUp {
-    background-color: #8E2424;
+    background-color: var(--main-color);
     color: #FFF;
 }
 
+.about-us {
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-us span {
+    color: var(--main-color);
+}
+
+.about-us h1 {
+    font-size: 2rem;
+}
+
+.about-us p {
+    color: var(--text-color);
+    max-width: 50%;
+    text-align: center;
+    line-height: 1.5rem;
+}
